@@ -114,13 +114,15 @@ This section guides you through installing the necessary software and running th
   https://www.microsoft.com/en-us/sql-server/sql-server-downloads  
 - Run the installer and follow the prompts to install SQL Server Express.  
 - Choose the default or named instance as preferred.  
-- Enable SQL Server Authentication and set a strong password for the 'sa' user.
+- Enable SQL Server Authentication and set a strong password for the 'sa' user.  
+- After installation, start the SQL Server service from the Windows Services app if it is not already running.
 
 ### 2. Install SQL Server Management Studio (SSMS)
 
 - Download SSMS from:  
   https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16  
-- Install SSMS to have a graphical interface to manage your SQL Server instance, run queries, and execute scripts.
+- Run the installer and follow the prompts to install SSMS.  
+- Launch SSMS and connect to your SQL Server instance using Windows Authentication or SQL Server Authentication with the 'sa' user and password you set.
 
 ### 3. Prepare the Project Environment
 
